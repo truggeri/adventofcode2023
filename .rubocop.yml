@@ -4,7 +4,9 @@ AllCops:
   Exclude:
     - 'bin/**'
     - 'config/**/*'
+    - 'gemfiles/vendor/bundle/**/*'
     - 'lib/**/*'
+    - 'vendor/bundle/**/*'
   DisplayCopNames: true
   NewCops: enable
 Layout/HashAlignment:
@@ -41,7 +43,7 @@ Metrics/ClassLength:
 Metrics/MethodLength:
   Enabled: true
   Max: 25
-Rspec/DescribeClass:
+RSpec/DescribeClass:
   Enabled: false
 RSpec/NamedSubject:
   Enabled: false
