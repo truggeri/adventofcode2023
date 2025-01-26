@@ -1,7 +1,7 @@
 require_relative '../lib/day1'
 
-RSpec.describe 'day1' do
-  subject { solve(input) }
+RSpec.describe Day1 do
+  subject { described_class.new.solve(input) }
 
   context 'when example' do
     let(:input) do
