@@ -43,8 +43,6 @@ Metrics/ClassLength:
 Metrics/MethodLength:
   Enabled: true
   Max: 25
-RSpec/DescribeClass:
-  Enabled: false
 RSpec/NamedSubject:
   Enabled: false
 Style/Documentation:
